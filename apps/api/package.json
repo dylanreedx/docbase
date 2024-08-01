@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.2.5",
+    "@upstash/vector": "^1.1.5",
+    "cheerio": "^1.0.0-rc.12",
+    "openai": "^4.53.2",
+    "puppeteer": "^22.15.0"
+  }
+}
